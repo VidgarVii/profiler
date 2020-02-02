@@ -8,13 +8,10 @@
 # gem 'memory_profiler'   https://github.com/SamSaffron/memory_profiler
 
 # Performance.new(Class.new, :method, true).run_in(:stackprof)
-# Reports.ext_report(PARAMS)
 
 
 class Performance
-  PARAMS = { service_type: "videocomfort",
-             b_date: Date.parse("01.01.2019").beginning_of_day,
-             e_date: Date.parse("28.01.2020").end_of_day }
+  PARAMS = ''
 
 
   STACKPROF_MODE = :wall
